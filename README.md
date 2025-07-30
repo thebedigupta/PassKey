@@ -16,19 +16,10 @@ A modern, secure password manager built with React, Node.js, Express, and MongoD
 
 </div>
 
-**Alternative Embedded Player:**
-<details>
-<summary>🎬 Click to expand embedded video player</summary>
-
-<div align="center">
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/niy3LbBNDo8?si=demo_passkey&amp;controls=1&amp;rel=0&amp;showinfo=0&amp;modestbranding=1" title="PassKey Demo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-</div>
 
 </details>
 
-*Complete walkthrough of PassKey's features including Google OAuth authentication, password management, and security features in action!*
-
-
+_Complete walkthrough of PassKey's features including Google OAuth authentication, password management, and security features in action!_
 
 > 💡 **Note**: The demo shows real-time functionality of all core features including secure authentication, encrypted password storage, and intuitive user interface.
 
