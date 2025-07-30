@@ -9,10 +9,24 @@ A modern, secure password manager built with React, Node.js, Express, and MongoD
 > **See PassKey in Action!** Watch our comprehensive demo showcasing all the features and functionality.
 
 <div align="center">
-  <iframe width="80%" height="400" src="https://www.youtube.com/embed/niy3LbBNDo8?autoplay=1&mute=1&loop=1&playlist=niy3LbBNDo8" title="PassKey Demo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
+[![PassKey Demo Video](https://img.youtube.com/vi/niy3LbBNDo8/maxresdefault.jpg)](https://youtu.be/niy3LbBNDo8)
+
+**🎥 [▶️ Watch Full Demo on YouTube](https://youtu.be/niy3LbBNDo8)**
+
 </div>
 
-**🎥 [Watch Full Demo on YouTube](https://youtu.be/niy3LbBNDo8)** - Complete walkthrough of PassKey's features including Google OAuth authentication, password management, and security features in action!
+**Alternative Embedded Player:**
+<details>
+<summary>🎬 Click to expand embedded video player</summary>
+
+<div align="center">
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/niy3LbBNDo8?si=demo_passkey&amp;controls=1&amp;rel=0&amp;showinfo=0&amp;modestbranding=1" title="PassKey Demo Video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+</details>
+
+*Complete walkthrough of PassKey's features including Google OAuth authentication, password management, and security features in action!*
 
 
 
