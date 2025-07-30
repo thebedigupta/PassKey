@@ -19,6 +19,14 @@ const userSchema = new mongoose.Schema({
     required: true,
     trim: true,
   },
+  googleId: {
+    type: String,
+    sparse: true, // Allows multiple null values but ensures uniqueness for non-null values
+  },
+  picture: {
+    type: String,
+    trim: true,
+  },
   isVerified: {
     type: Boolean,
     default: false,

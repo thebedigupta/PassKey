@@ -46,7 +46,13 @@ router.get("/:id", auth, async (req, res) => {
       return res.status(404).json({ message: "Password not found" });
     }
 
-    res.json(password);
+    // Decrypt the password for copying
+    const decryptedPassword = password.decryptPassword();
+
+    res.json({
+      ...password.toJSON(),
+      password: decryptedPassword,
+    });
   } catch (error) {
     console.error("Get password error:", error);
     res.status(500).json({ message: "Server error" });

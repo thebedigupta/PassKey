@@ -37,6 +37,16 @@ mongoose
   .then(() => console.log("MongoDB connected successfully"))
   .catch((err) => console.error("MongoDB connection error:", err));
 
+// Health check endpoint (before other routes)
+app.get("/health", (req, res) => {
+  res.status(200).json({
+    status: "OK",
+    message: "PassKey server is running",
+    timestamp: new Date().toISOString(),
+    environment: process.env.NODE_ENV || "development",
+  });
+});
+
 // Routes
 app.use("/api/auth", require("./routes/auth"));
 app.use("/api/passwords", require("./routes/passwords"));
